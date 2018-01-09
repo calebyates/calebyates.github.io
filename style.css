@@ -1,0 +1,49 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+  }
+
+hr {
+	max-width: 150px;
+	border-width:10px;
+	border-color: #FF9D13;
+}
+
+.faded {
+  color: #FF9D13; 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("https://img.buzzfeed.com/buzzfeed-static/static/enhanced/manual/002-anigif-pereir_cinemagraph_by_optimetrics-d4hjg4c.gif?downsize=715:*&output-format=auto&output-quality=auto");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 5rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: sans-serif;
+}
+
+.btn-x1 {
+  padding: 1rem 2rem; 
+}
+
+.btn-warning:hover {
+background-color: #ee4b08;
+border-color: #ee4b08;
+border-width: 5px;
+cursor: pointer;
+}
